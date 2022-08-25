@@ -154,8 +154,11 @@
     padding: 10px;
 }
 .links {
-    display: flex;
-    justify-content: space-evenly;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.bj {
+    padding-top: 45px ;
 }
 .info p {
     padding: 15px;
@@ -232,9 +235,12 @@ footer {
     color: #fff;
     font-size: 14px;
 }
-@media (max-width:1442px) {
+@media (max-width:1440px) {
     .repositorio {
         height: 100vh;
+    }
+    .card-repo {
+        height: 41vh;
     }
 }
 @media (max-width:1024px) {
@@ -299,9 +305,14 @@ footer {
     }
     .repositorio {
         height: 180vh;
+        margin-bottom: 50px;
     }
     footer {
         height: 100vh;
+    }
+    .min-width {
+        padding: 2px;
+        margin-bottom: 5px;
     }
 }
 @media (max-width:375px) {
@@ -356,15 +367,16 @@ footer {
         text-decoration: none;
         color: rgb(241, 205, 47);
     }
+    .bj {
+        padding-top: 20px;
+    }
 }
 @media (max-width:320px) {
-    .min-width {
-        padding: 2px;
+    .card-repo {
+        height: 41vh;
     }
     .info {
         text-align: center;
-        /* margin-top: 10px;
-        padding: 10px; */
     }
     .info p {
         padding: 0;

@@ -216,7 +216,6 @@ footer {
 .footer-ul a {
     color: #fff;
     text-decoration: none;
-    padding-left: 10px;
     font-size: 20px;
 }
 .footer-ul a:hover {
@@ -231,7 +230,6 @@ footer {
 }
 .flecha {
     width: 25px;
-    color: #fff;
 }
 .dato {
     display: flex;
@@ -310,6 +308,10 @@ footer {
         margin: 15px;
         font-size: 40px;
     }
+    .container-article {
+        margin: auto;
+        padding: 20px;
+    }
     .coder li {
         color: #fff;
         font-size: 18px;
@@ -322,9 +324,17 @@ footer {
     .lenguajes {
         width: 100px;
         padding: 5px;
-    } 
+    }
     footer {
+        width: 100%;
         height: 100vh;
+    }
+    .container-footer {
+        display: block;
+        text-align: center;
+    }
+    .flecha {
+        margin-top: -10px;
     }
 }
 @media (max-width:375px) {
@@ -379,11 +389,14 @@ footer {
         text-decoration: none;
         color: rgb(241, 205, 47);
     }
+    .bd {
+        margin-top: -5px;
+    }
     .bj {
-        padding-top: 15px;
+        padding-top: none;
     }
 }
-@media (max-width:320px) {
+@media (max-width:358px) {
     .card-repo {
         height: 41vh;
     }

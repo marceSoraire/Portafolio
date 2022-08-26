@@ -72,7 +72,7 @@
     background: #111;
     border-radius: 10px;
     border: 3px solid yellow;
-    height: 20vh;
+    height: 25vh;
 }
 .logo-coder {
     width: 150px;
@@ -129,10 +129,10 @@
     height: 60vh;
 }
 .card-repo {
-    margin: auto 1rem;
+    padding: 5px;
     width: 300px;
     height: 40vh;
-    border: 1px solid #333;
+    border: 1px solid rgb(214, 211, 211);
     border-radius: 6px;
     background-repeat: no-repeat;
     background-position: center;
@@ -150,15 +150,20 @@
 }
 .info {
     text-align: center;
-    margin-top: 10px;
-    padding: 10px;
+    padding: 5px;
+}
+.card-text {
+    padding: 0px 2px;
 }
 .links {
-    padding-bottom: 10px;
+    padding: 10px;
     text-align: center;
 }
+.repo-img {
+    width: 70px;
+}
 .bj {
-    padding-top: 45px ;
+    padding-top: 33px ;
 }
 .info p {
     padding: 15px;
@@ -167,8 +172,7 @@
 .card-repo:hover {
     transition: all 2s ease;
     background: rgb(236, 233, 233);
-    color: #000;
-    border: 1px solid rgb(33, 91, 248);
+    border: 1px solid #000;
 }
 footer {
     background: #111;
@@ -236,6 +240,31 @@ footer {
     font-size: 14px;
 }
 @media (max-width:1440px) {
+    .container-article {
+        display: inline;
+    }
+    .coder {
+        display: block;
+        background: #111;
+        border-radius: 10px;
+        border: 3px solid yellow;
+        margin: auto;
+        width: 80%;
+        height: 40vh;
+    }
+    .logo-coder {
+        display: flex;
+        margin: 20px auto;
+        padding: 5px;
+        width: 120px;
+        height: 10vh;
+        border-radius: 50%;
+        border: 1px solid yellow;
+    }
+    .cursos {
+        list-style: none;
+        text-align: center;
+    }
     .repositorio {
         height: 100vh;
     }
@@ -251,26 +280,8 @@ footer {
         font-size: 18px;
     }
     .coder {
-        display: block;
-        background: #111;
-        border-radius: 10px;
-        border: 3px solid yellow;
         width: 100%;
-        height: 35vh;
     }
-    .logo-coder {
-        display: flex;
-        margin: 20px auto;
-        width: 120px;
-        height: 10vh;
-        border-radius: 50%;
-        border: 1px solid yellow;
-    }
-    .cursos {
-        list-style: none;
-        text-align: center;
-    }
-    
 }
 @media ( max-width: 768px) {
     .list {
@@ -279,6 +290,15 @@ footer {
     .menu {
         display: block;
     }
+}
+@media (max-width: 685px) {
+    .repositorio {
+        height: 180vh;
+        margin-bottom: 50px;
+    }
+    footer {
+        height: 80vh;
+    } 
 }
 @media (max-width:425px) {
     .code-imag {
@@ -302,17 +322,9 @@ footer {
     .lenguajes {
         width: 100px;
         padding: 5px;
-    }
-    .repositorio {
-        height: 180vh;
-        margin-bottom: 50px;
-    }
+    } 
     footer {
         height: 100vh;
-    }
-    .min-width {
-        padding: 2px;
-        margin-bottom: 5px;
     }
 }
 @media (max-width:375px) {
@@ -368,7 +380,7 @@ footer {
         color: rgb(241, 205, 47);
     }
     .bj {
-        padding-top: 20px;
+        padding-top: 15px;
     }
 }
 @media (max-width:320px) {

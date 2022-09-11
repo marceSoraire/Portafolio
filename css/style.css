@@ -293,11 +293,11 @@ footer {
 }
 @media (max-width: 683px) {
     .repositorio {
-        height: 200vh;
+        height: 230vh;
         margin-bottom: 50px;
     }
     .card-repo {
-        height: 30vh;
+        height: 35vh;
     }
     .card-title {
         display: none;
